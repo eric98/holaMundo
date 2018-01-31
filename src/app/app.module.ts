@@ -7,6 +7,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { Pro } from '@ionic/pro';
+
+const IonicPro = Pro.init('APP_ID', {
+  appVersion: "APP_VERSION"
+});
+
 @NgModule({
   declarations: [
     MyApp,
